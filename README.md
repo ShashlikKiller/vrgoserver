@@ -1,2 +1,2 @@
 # vrgoserver
-456
+Сервер для VR GO Assitant
