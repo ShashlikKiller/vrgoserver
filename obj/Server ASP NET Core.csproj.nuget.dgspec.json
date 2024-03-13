@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zharn\\Desktop\\Server ASP NET Core\\Server ASP NET Core.csproj": {}
+    "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\2\\command_dev\\vrgoserver\\Server ASP NET Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zharn\\Desktop\\Server ASP NET Core\\Server ASP NET Core.csproj": {
+    "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\2\\command_dev\\vrgoserver\\Server ASP NET Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zharn\\Desktop\\Server ASP NET Core\\Server ASP NET Core.csproj",
+        "projectUniqueName": "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\2\\command_dev\\vrgoserver\\Server ASP NET Core.csproj",
         "projectName": "Server ASP NET Core",
-        "projectPath": "C:\\Users\\zharn\\Desktop\\Server ASP NET Core\\Server ASP NET Core.csproj",
+        "projectPath": "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\2\\command_dev\\vrgoserver\\Server ASP NET Core.csproj",
         "packagesPath": "C:\\Users\\zharn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zharn\\Desktop\\Server ASP NET Core\\obj\\",
+        "outputPath": "C:\\Users\\zharn\\Desktop\\subjects\\3_year\\2\\command_dev\\vrgoserver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zharn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,18 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
