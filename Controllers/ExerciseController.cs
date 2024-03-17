@@ -7,23 +7,22 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace vrgoserver.Models 
 {
-    [Route("vrgoserver/stock")]
+    [Route("vrgoserver/exercise")]
     [ApiController]
-    public class StockController : ControllerBase
+    public class ExerciseController : ControllerBase
     {
         private readonly ApplicationDBContext _context;
 
-        public StockController(ApplicationDBContext context)
+        public ExerciseController(ApplicationDBContext context)
         {
             _context = context;
         }
 
         [HttpGet]
-        public IActionResult GetAll() 
+        public IActionResult GetExercise() 
         {
-            Stock stock = new Stock();
-            var str = Newtonsoft.Json.JsonConvert.SerializeObject(stock);
-            return Ok(str);
+            Exercise exercise = new Exercise();
+            return Ok(exercise);
         }
     }
 }
